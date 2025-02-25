@@ -1,0 +1,21 @@
+[project]
+name = "xai-cookbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "check-jsonschema>=0.31.2",
+    "jupyter>=1.1.1",
+    "pip>=25.0.1",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "nbmake>=1.5.5",
+    "nbqa>=1.9.1",
+    "pre-commit>=4.1.0",
+    "pytest>=8.3.4",
+    "ruff>=0.9.7",
+]
