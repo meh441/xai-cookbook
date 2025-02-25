@@ -19,11 +19,19 @@ Below are steps to run these notebooks locally with your own API key, which you 
    ```bash
    uv sync
 
-3. Copy the  `.env.example` file and rename it to `.env` and add your API key (the repo is set-up to ignore .env so that it won't be committed):
+3. Install pre-commit hooks:
+    ```bash
+    uv run pre-commit install
+
+4. Configure git lfs (install it if you haven't already):
+    ```bash
+    git lfs install
+
+5. Copy the  `.env.example` file and rename it to `.env` and add your API key (the repo is set-up to ignore .env so that it won't be committed).:
    ```bash
    cp .env.example .env
 
-4. Launch Jupyter in the notebook directory and run the desired notebook:
+6. Launch Jupyter in the notebook directory and run the desired notebook:
     ```bash
     uv run jupyter notebook examples/
    
