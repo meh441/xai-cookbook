@@ -1,0 +1,19 @@
+# Example entry:
+
+# - title: Grok Vision Notebook
+#   path: examples/grok_vision.ipynb
+#   date: yyyy-mm-dd
+#   authors:
+#     - Foo Bar
+#   tags:
+#     - vision
+#     - structured-outputs
+
+- title: Hello, Grok!
+  path: examples/chat.ipynb
+  date: 2025-02-25
+  authors:
+    - Omar Diab
+  tags:
+    - vision
+    - structured-outputs
