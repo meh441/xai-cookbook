@@ -3,3 +3,10 @@ repos:
   rev: v8.23.1
   hooks:
     - id: gitleaks
+- repo: local
+  hooks:
+    - id: nbmake
+      name: Test successful notebook execution
+      entry: uv run pytest --nbmake
+      language: system
+      files: ^examples/
