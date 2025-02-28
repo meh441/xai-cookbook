@@ -12,10 +12,4 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
-    "nbmake>=1.5.5",
-    "nbqa>=1.9.1",
-    "pre-commit>=4.1.0",
-    "pytest>=8.3.4",
-    "ruff>=0.9.7",
-]
+dev = ["nbmake>=1.5.5", "pre-commit>=4.1.0", "pytest>=8.3.4"]
