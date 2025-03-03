@@ -9,7 +9,7 @@ repos:
       name: Test successful notebook execution
       entry: uv run pytest --nbmake
       language: system
-      files: ^examples/
+      files: ^examples/.*\.ipynb$
 - repo: https://github.com/python-jsonschema/check-jsonschema
   rev: 0.31.2
   hooks:
