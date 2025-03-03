@@ -9,15 +9,6 @@
 #     - vision
 #     - structured-outputs
 
-- title: Hello, Grok!
-  path: examples/chat.ipynb
-  date: 2025-02-25
-  authors:
-    - Omar Diab
-  tags:
-    - vision
-    - structured-outputs
-
 - title: 'Seeing the World Through Language: Object Detection with Grok'
   path: examples/multimodal/object_detection/guide.ipynb
   date: 2025-03-03
