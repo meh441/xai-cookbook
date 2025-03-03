@@ -27,3 +27,14 @@
     - vision
     - object-detection
     - multi-modal
+
+- title: 'Extracting Structured Data from Fashion Images with Grok'
+  path: examples/multimodal/structured_data_extraction/guide.ipynb
+  date: 2025-03-03
+  authors:
+    - Omar Diab
+  tags:
+    - vision
+    - structured-outputs
+    - multi-modal
+    - e-commerce
