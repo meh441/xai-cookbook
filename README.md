@@ -12,8 +12,8 @@ Below are steps to run these notebooks locally with your own API key, which you 
 ### Setup
 1. Clone this repo:
    ```bash
-   git clone https://github.com/xai-org/xai-cookbooks.git
-   cd xai-cookbooks
+   git clone https://github.com/xai-org/xai-cookbook.git
+   cd xai-cookbook
 
 2. Install dependencies:
    ```bash

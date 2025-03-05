@@ -1,6 +1,6 @@
 # Contributing to xAI Cookbooks
 
-Thanks for your interest in contributing to `xai-cookbooks`! We’re excited to see your ideas and have some guidelines to ensure high quality and value.
+Thanks for your interest in contributing to `xai-cookbook`! We’re excited to see your ideas and have some guidelines to ensure high quality and value.
 
 ## What We’re Looking For
 
@@ -18,7 +18,7 @@ Before submitting, ask:
 ## How to Contribute
 
 1. **Fork the Repository**: Click "Fork" at the top right to create your copy.
-2. **Clone Your Fork**: `git clone https://github.com/your-username/xai-cookbooks.git`
+2. **Clone Your Fork**: `git clone https://github.com/your-username/xai-cookbook.git`
 3. **Create a Branch**: Use a descriptive name, e.g., `git checkout -b add-image-analysis-cookbook`.
 4. **Add Your Cookbook**:
    - For standalone notebooks, save as `examples/<notebook_title>.ipynb`.
