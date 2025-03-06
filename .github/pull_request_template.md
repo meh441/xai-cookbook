@@ -17,4 +17,4 @@ Why this change matters:
 - [ ] Included relevant dependencies
 - [ ] API key is not in committed files
 - [ ] Notebook runs end-to-end with cell outputs shown and no errors
-- [ ] Added notebook to `registry.yaml` (e.g., `examples/my_notebook.ipynb`)
+- [ ] Added new notebook entry to `registry.yaml` (if PR adds a new notebook)

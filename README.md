@@ -63,11 +63,11 @@ git lfs install
 Files are tracked via `.gitattributes`, check or update it if adding new large files.
 
 ### Pre-commit Hooks
-This repo includes a pre-commit hook with Gitleaks to block accidental API key commits. It’s not foolproof, though—if you accidentally commit your key, revoke it immediately in the xAI Console and generate a new one.
+This repo includes a pre-commit hook with Gitleaks to block accidental API key commits. It’s not foolproof though, if you accidentally commit your key, revoke it immediately in the xAI Console and generate a new one.
 
 There’s also a pre-commit hook to verify that your notebooks run end-to-end without errors.
 
-It’s fine to skip these hooks during development using `git commit --no-verify`, especially if your notebook makes frequent requests to the xAI APIs—skipping can help preserve your API credits. That said, we strongly encourage you to run your changes with the hooks enabled at least once before submitting a pull request or responding to comments on an open PR. This ensures code quality and catches potential issues. To manually trigger the hooks, use pre-commit run after staging your changes. (e.g. `uv run pre-commit run --files examples/your_notebook.ipynb`)
+It’s fine to skip these hooks during development using `git commit --no-verify`, especially if your notebook makes frequent requests to the xAI APIs, skipping can help preserve your API credits. That said, we strongly encourage you to run your changes with the hooks enabled at least once before submitting a pull request or responding to comments on an open PR. This ensures code quality and catches potential issues. To manually trigger the hooks, use pre-commit run after staging your changes. (e.g. `uv run pre-commit run --files examples/your_notebook.ipynb`)
 
 ## Contributing
 Want to add a notebook? See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Key steps:
