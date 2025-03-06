@@ -28,7 +28,6 @@ Before submitting, ask:
      - Use clear, descriptive cell titles for sections or steps.
      - Write Python in code cells; explanations in markdown cells.
      - Add images as `![alt text](image_source)` or use `display` from `IPython.display` (no HTML).
-     - Follow [PEP 8](https://pep8.org/) for Python.
    - **Dependencies**:
      - Minimize dependencies.
      - Use `%pip install <package1> <package2>`.
