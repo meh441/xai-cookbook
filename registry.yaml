@@ -9,7 +9,7 @@
 #     - vision
 #     - structured-outputs
 
-- title: 'Seeing the World Through Language: Object Detection with Grok'
+- title: "Seeing the World Through Language: Object Detection with Grok"
   path: examples/multimodal/object_detection/guide.ipynb
   date: 2025-03-03
   authors:
@@ -19,7 +19,7 @@
     - object-detection
     - multi-modal
 
-- title: 'Extracting Structured Data from Fashion Images with Grok'
+- title: "Extracting Structured Data from Fashion Images with Grok"
   path: examples/multimodal/structured_data_extraction/guide.ipynb
   date: 2025-03-03
   authors:
@@ -29,3 +29,16 @@
     - structured-outputs
     - multi-modal
     - e-commerce
+
+- title: "Building a Unified Chat Experience with Grok"
+  path: examples/multi_turn_conversation.ipynb
+  date: 2025-04-07
+  authors:
+    - Omar Diab
+  tags:
+    - multi-turn-conversation
+    - chatbot
+    - streaming
+    - function-calling
+    - structured-outputs
+    - image-understanding
