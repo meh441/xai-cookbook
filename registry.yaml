@@ -52,3 +52,13 @@
     - sentiment-analysis
     - real-time
     - reasoning
+
+- title: "Hyper Personalized Marketing with Grok"
+  path: examples/hyper_personalized_marketing/guide.ipynb
+  date: 2025-04-10
+  authors:
+    - Omar Diab
+  tags:
+    - marketing
+    - multi-modal
+    - image-generation
