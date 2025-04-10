@@ -42,3 +42,13 @@
     - function-calling
     - structured-outputs
     - image-understanding
+
+- title: "Real Time Sentiment Analysis with Grok & 𝕏"
+  path: examples/x_sentiment_analysis.ipynb
+  date: 2025-04-10
+  authors:
+    - Omar Diab
+  tags:
+    - sentiment-analysis
+    - real-time
+    - reasoning
