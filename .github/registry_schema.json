@@ -10,7 +10,17 @@
             "path": {
                 "type": "string"
             },
-            "redirects": {
+            "image": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "date": {
+                "type": "string",
+                "format": "date"
+            },
+            "authors": {
                 "type": "array",
                 "items": {
                     "type": "string"
@@ -21,19 +31,9 @@
                 "items": {
                     "type": "string"
                 }
-            },
-            "authors": {
-                "type": "array",
-                "items": {
-                    "type": "string"
-                }
-            },
-            "date": {
-                "type": "string",
-                "format": "date"
             }
         },
-        "required": ["title", "path", "tags", "authors"],
+        "required": ["title", "path", "description", "date", "authors", "tags"],
         "additionalProperties": false
     }
 }
